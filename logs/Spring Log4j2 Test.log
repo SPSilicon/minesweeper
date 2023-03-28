@@ -1,0 +1,1498 @@
+2023/03/28 16:48:30,428 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:30,450 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,451 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,452 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,453 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,454 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,454 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,454 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,454 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,455 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,455 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,455 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,455 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,456 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,456 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,456 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,457 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,457 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,457 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,458 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,458 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,464 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'redisKeyValueAdapter'
+ -2023/03/28 16:48:30,470 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Starting RedisMessageListenerContainer...
+ -2023/03/28 16:48:30,470 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Postpone listening for Redis messages until actual listeners are added
+ -2023/03/28 16:48:30,471 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'data-redisjson.repository-aot-processor#0'
+ -2023/03/28 16:48:30,474 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.web.reactive.config.DelegatingWebFluxConfiguration'
+ -2023/03/28 16:48:30,479 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webHandler'
+ -2023/03/28 16:48:30,483 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+ -2023/03/28 16:48:30,484 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webFluxContentTypeResolver'
+ -2023/03/28 16:48:30,492 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'webFluxContentTypeResolver'
+ -2023/03/28 16:48:30,517 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'routerFunctionMapping'
+ -2023/03/28 16:48:30,518 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,557 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,561 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'resourceHandlerMapping'
+ -2023/03/28 16:48:30,562 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'resourceUrlProvider'
+ -2023/03/28 16:48:30,566 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'resourceUrlProvider'
+ -2023/03/28 16:48:30,568 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webSocketHandlerMapping'
+ -2023/03/28 16:48:30,576 [DEBUG]  [org.springframework.web.reactive.handler.SimpleUrlHandlerMapping] [main]- Patterns [/minesweeper] in 'webSocketHandlerMapping'
+ -2023/03/28 16:48:30,578 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+ -2023/03/28 16:48:30,579 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webFluxAdapterRegistry'
+ -2023/03/28 16:48:30,581 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webFluxConversionService'
+ -2023/03/28 16:48:30,584 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webFluxValidator'
+ -2023/03/28 16:48:30,586 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxAdapterRegistry'
+ -2023/03/28 16:48:30,586 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,587 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxConversionService'
+ -2023/03/28 16:48:30,587 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'webFluxValidator'
+ -2023/03/28 16:48:30,612 [DEBUG]  [org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver] [main]- ControllerAdvice beans: none
+ -2023/03/28 16:48:30,613 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'handlerFunctionAdapter'
+ -2023/03/28 16:48:30,615 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'simpleHandlerAdapter'
+ -2023/03/28 16:48:30,617 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webFluxWebSocketHandlerAdapter'
+ -2023/03/28 16:48:30,625 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'handlerAdapter'
+ -2023/03/28 16:48:30,626 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'responseEntityResultHandler'
+ -2023/03/28 16:48:30,629 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+ -2023/03/28 16:48:30,630 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,630 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseEntityResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+ -2023/03/28 16:48:30,635 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'responseBodyResultHandler'
+ -2023/03/28 16:48:30,636 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+ -2023/03/28 16:48:30,637 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,637 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'responseBodyResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+ -2023/03/28 16:48:30,639 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'viewResolutionResultHandler'
+ -2023/03/28 16:48:30,640 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'viewResolutionResultHandler' via factory method to bean named 'webFluxAdapterRegistry'
+ -2023/03/28 16:48:30,641 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'viewResolutionResultHandler' via factory method to bean named 'webFluxContentTypeResolver'
+ -2023/03/28 16:48:30,644 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'serverResponseResultHandler'
+ -2023/03/28 16:48:30,645 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'serverResponseResultHandler' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,648 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'responseStatusExceptionHandler'
+ -2023/03/28 16:48:30,653 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'localeContextResolver'
+ -2023/03/28 16:48:30,655 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'ObjectMapper'
+ -2023/03/28 16:48:30,732 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+ -2023/03/28 16:48:30,734 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+ -2023/03/28 16:48:30,735 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+ -2023/03/28 16:48:30,747 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+ -2023/03/28 16:48:30,748 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+ -2023/03/28 16:48:30,750 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+ -2023/03/28 16:48:30,756 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+ -2023/03/28 16:48:30,759 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'parameterNamesModule'
+ -2023/03/28 16:48:30,761 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+ -2023/03/28 16:48:30,769 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'jsonMixinModule'
+ -2023/03/28 16:48:30,770 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration'
+ -2023/03/28 16:48:30,772 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'jsonMixinModuleEntries'
+ -2023/03/28 16:48:30,775 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'jsonMixinModuleEntries' via factory method to bean named 'org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@76b0ae1b'
+ -2023/03/28 16:48:30,778 [DEBUG]  [org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages] [main]- @EnableAutoConfiguration was declared on a class in the package 'com.spsi.minesweeper'. Automatic @Repository and @Entity scanning is enabled.
+ -2023/03/28 16:48:30,791 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@76b0ae1b'
+ -2023/03/28 16:48:30,792 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'jsonMixinModuleEntries'
+ -2023/03/28 16:48:30,794 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'jsonComponentModule'
+ -2023/03/28 16:48:30,794 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+ -2023/03/28 16:48:30,800 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+ -2023/03/28 16:48:30,801 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+ -2023/03/28 16:48:30,802 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration'
+ -2023/03/28 16:48:30,804 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'defaultCodecCustomizer'
+ -2023/03/28 16:48:30,804 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.codec-org.springframework.boot.autoconfigure.codec.CodecProperties'
+ -2023/03/28 16:48:30,806 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'defaultCodecCustomizer' via factory method to bean named 'spring.codec-org.springframework.boot.autoconfigure.codec.CodecProperties'
+ -2023/03/28 16:48:30,814 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+ -2023/03/28 16:48:30,816 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'jacksonCodecCustomizer'
+ -2023/03/28 16:48:30,816 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'jacksonCodecCustomizer' via factory method to bean named 'ObjectMapper'
+ -2023/03/28 16:48:30,823 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration'
+ -2023/03/28 16:48:30,824 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.ReactiveMultipartAutoConfiguration'
+ -2023/03/28 16:48:30,825 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'defaultPartHttpMessageReaderCustomizer'
+ -2023/03/28 16:48:30,825 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.webflux.multipart-org.springframework.boot.autoconfigure.web.reactive.ReactiveMultipartProperties'
+ -2023/03/28 16:48:30,828 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'defaultPartHttpMessageReaderCustomizer' via factory method to bean named 'spring.webflux.multipart-org.springframework.boot.autoconfigure.web.reactive.ReactiveMultipartProperties'
+ -2023/03/28 16:48:30,835 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.WebSessionIdResolverAutoConfiguration'
+ -2023/03/28 16:48:30,836 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.webflux-org.springframework.boot.autoconfigure.web.reactive.WebFluxProperties'
+ -2023/03/28 16:48:30,838 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.reactive.WebSessionIdResolverAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+ -2023/03/28 16:48:30,838 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.reactive.WebSessionIdResolverAutoConfiguration' via constructor to bean named 'spring.webflux-org.springframework.boot.autoconfigure.web.reactive.WebFluxProperties'
+ -2023/03/28 16:48:30,839 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'webSessionIdResolver'
+ -2023/03/28 16:48:30,842 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration'
+ -2023/03/28 16:48:30,843 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+ -2023/03/28 16:48:30,844 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'errorWebExceptionHandler'
+ -2023/03/28 16:48:30,845 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'errorAttributes'
+ -2023/03/28 16:48:30,847 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+ -2023/03/28 16:48:30,852 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'errorWebExceptionHandler' via factory method to bean named 'errorAttributes'
+ -2023/03/28 16:48:30,852 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'errorWebExceptionHandler' via factory method to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+ -2023/03/28 16:48:30,852 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'errorWebExceptionHandler' via factory method to bean named 'serverCodecConfigurer'
+ -2023/03/28 16:48:30,853 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'errorWebExceptionHandler' via factory method to bean named 'org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@76b0ae1b'
+ -2023/03/28 16:48:30,864 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration$AnnotationConfig'
+ -2023/03/28 16:48:30,864 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration$AnnotationConfig' via constructor to bean named 'org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@76b0ae1b'
+ -2023/03/28 16:48:30,865 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'httpHandler'
+ -2023/03/28 16:48:30,877 [DEBUG]  [org.springframework.web.server.adapter.HttpWebHandlerAdapter] [main]- enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+ -2023/03/28 16:48:30,879 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration'
+ -2023/03/28 16:48:30,881 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'redisJSONOperations'
+ -2023/03/28 16:48:30,882 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONOperations' via factory method to bean named 'redisModulesOperations'
+ -2023/03/28 16:48:30,886 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'redisJSONKeyValueAdapter'
+ -2023/03/28 16:48:30,887 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'redisTemplate'
+ -2023/03/28 16:48:30,888 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'redisModulesOperations'
+ -2023/03/28 16:48:30,888 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'keyValueMappingContext'
+ -2023/03/28 16:48:30,889 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'rediSearchIndexer'
+ -2023/03/28 16:48:30,889 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'gsonBuilder'
+ -2023/03/28 16:48:30,889 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisJSONKeyValueAdapter' via factory method to bean named 'redis.om.spring-com.redis.om.spring.RedisOMSpringProperties'
+ -2023/03/28 16:48:30,891 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class com.github.f4b6a3.ulid.Ulid to class [B as writing converter
+ -2023/03/28 16:48:30,891 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class com.github.f4b6a3.ulid.Ulid as reading converter
+ -2023/03/28 16:48:30,891 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class org.springframework.data.geo.Point to class [B as writing converter
+ -2023/03/28 16:48:30,892 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class org.springframework.data.geo.Point as reading converter
+ -2023/03/28 16:48:30,892 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,893 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,893 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,893 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,894 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.OffsetDateTime as reading converter
+ -2023/03/28 16:48:30,894 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,894 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,894 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,895 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,895 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,895 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:30,895 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:30,896 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:30,896 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:30,896 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:30,897 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:30,897 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,897 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,898 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:30,899 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:30,899 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:30,900 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:30,900 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,900 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,900 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,901 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,901 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:30,901 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,901 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,902 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:30,902 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:30,903 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,903 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:30,903 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,903 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:30,904 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,904 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:30,904 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,905 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,905 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,906 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,906 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,906 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,906 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,907 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,907 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,908 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,909 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,909 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,909 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,910 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,910 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,912 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,913 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,914 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,915 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,915 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,917 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:30,918 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:30,919 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:30,919 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:30,920 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:30,920 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:30,920 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,921 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,921 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:30,921 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:30,922 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:30,922 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:30,922 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,923 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,923 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,924 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,924 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:30,924 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,925 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,925 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:30,925 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:30,926 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,926 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:30,927 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,927 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:30,927 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,928 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:30,928 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,928 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,929 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,929 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,930 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,930 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,931 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,931 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,931 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,931 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,932 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,932 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,932 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,932 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,933 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,933 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,933 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,934 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,934 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,934 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,936 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:30,936 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:30,937 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:30,937 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:30,938 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:30,938 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:30,939 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,939 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,939 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:30,939 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:30,940 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:30,940 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:30,940 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,942 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,942 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,943 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,943 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:30,943 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,944 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,944 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:30,944 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:30,945 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,945 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:30,945 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,945 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:30,946 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,946 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:30,946 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,946 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,947 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,948 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,948 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,948 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,949 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,949 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,949 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,949 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,950 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,950 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,950 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,950 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,951 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,951 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,952 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,952 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,952 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,953 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,954 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Starting RedisMessageListenerContainer...
+ -2023/03/28 16:48:30,955 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Postpone listening for Redis messages until actual listeners are added
+ -2023/03/28 16:48:30,957 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Starting RedisMessageListenerContainer...
+ -2023/03/28 16:48:30,957 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Postpone listening for Redis messages until actual listeners are added
+ -2023/03/28 16:48:30,958 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'redisCustomKeyValueTemplate'
+ -2023/03/28 16:48:30,961 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisCustomKeyValueTemplate' via factory method to bean named 'redisTemplate'
+ -2023/03/28 16:48:30,962 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisCustomKeyValueTemplate' via factory method to bean named 'redisModulesOperations'
+ -2023/03/28 16:48:30,962 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisCustomKeyValueTemplate' via factory method to bean named 'keyValueMappingContext'
+ -2023/03/28 16:48:30,963 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'redisCustomKeyValueTemplate' via factory method to bean named 'rediSearchIndexer'
+ -2023/03/28 16:48:30,964 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class com.github.f4b6a3.ulid.Ulid to class [B as writing converter
+ -2023/03/28 16:48:30,966 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class com.github.f4b6a3.ulid.Ulid as reading converter
+ -2023/03/28 16:48:30,966 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class org.springframework.data.geo.Point to class [B as writing converter
+ -2023/03/28 16:48:30,967 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class org.springframework.data.geo.Point as reading converter
+ -2023/03/28 16:48:30,967 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,967 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,968 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,968 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,969 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.OffsetDateTime as reading converter
+ -2023/03/28 16:48:30,969 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,969 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,970 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,970 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,970 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,971 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:30,972 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:30,973 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:30,973 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:30,974 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:30,974 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:30,974 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,974 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,975 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:30,975 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:30,976 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:30,977 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:30,978 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,978 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,979 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,980 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,980 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:30,981 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,981 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,982 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:30,982 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:30,983 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,984 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:30,984 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,985 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:30,985 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,986 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:30,986 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,986 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,986 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,987 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,987 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,987 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,988 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,988 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,988 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:30,990 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,990 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,991 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,991 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:30,991 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,991 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:30,992 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:30,992 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:30,992 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,992 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,993 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:30,994 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:30,994 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:30,995 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:30,995 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:30,995 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:30,996 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:30,996 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:30,996 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:30,997 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:30,997 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:30,997 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:30,997 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:30,998 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,998 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:30,998 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:30,998 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:30,999 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:30,999 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:30,999 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:30,999 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:31,000 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:31,000 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,001 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:31,001 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,001 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:31,002 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,002 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:31,002 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,003 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,003 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,003 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,003 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,004 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,004 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,004 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,004 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,005 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,005 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,005 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,005 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,006 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,006 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,006 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,007 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,008 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,008 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,009 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,010 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:31,010 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:31,010 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:31,011 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:31,011 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:31,011 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:31,012 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:31,012 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:31,013 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:31,013 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:31,014 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:31,014 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:31,014 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,015 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,015 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:31,015 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,015 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:31,016 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,016 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,017 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:31,018 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:31,018 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,018 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:31,019 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,019 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:31,020 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,020 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:31,020 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,021 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,021 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,021 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,021 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,021 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,022 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,022 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,023 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,023 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,023 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,024 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,024 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,024 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,024 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,025 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,025 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,025 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,025 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,026 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,027 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Starting RedisMessageListenerContainer...
+ -2023/03/28 16:48:31,027 [DEBUG]  [org.springframework.data.redis.listener.RedisMessageListenerContainer] [main]- Postpone listening for Redis messages until actual listeners are added
+ -2023/03/28 16:48:31,029 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class com.github.f4b6a3.ulid.Ulid to class [B as writing converter
+ -2023/03/28 16:48:31,029 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class com.github.f4b6a3.ulid.Ulid as reading converter
+ -2023/03/28 16:48:31,030 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class org.springframework.data.geo.Point to class [B as writing converter
+ -2023/03/28 16:48:31,030 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class org.springframework.data.geo.Point as reading converter
+ -2023/03/28 16:48:31,030 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:31,030 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,031 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDate to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,031 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,031 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.OffsetDateTime as reading converter
+ -2023/03/28 16:48:31,031 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.OffsetDateTime to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,032 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,032 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,033 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:31,033 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding user defined converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:31,033 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:31,034 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:31,034 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:31,034 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:31,034 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:31,035 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:31,035 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:31,035 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:31,036 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:31,036 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:31,036 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:31,037 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:31,037 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,037 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,038 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:31,039 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,039 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:31,039 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,040 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,040 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:31,040 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:31,041 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,041 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:31,041 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,041 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:31,041 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,042 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:31,042 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,043 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,043 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,043 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,043 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,044 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,045 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,045 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,046 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,046 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,046 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,046 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,046 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,047 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,047 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,047 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,047 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,048 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,048 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,048 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,049 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class [B as writing converter
+ -2023/03/28 16:48:31,050 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.String as reading converter
+ -2023/03/28 16:48:31,050 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Number to class [B as writing converter
+ -2023/03/28 16:48:31,051 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Number as reading converter
+ -2023/03/28 16:48:31,051 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Enum to class [B as writing converter
+ -2023/03/28 16:48:31,051 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Enum as reading converter
+ -2023/03/28 16:48:31,052 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.Boolean to class [B as writing converter
+ -2023/03/28 16:48:31,052 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.lang.Boolean as reading converter
+ -2023/03/28 16:48:31,052 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class [B as writing converter
+ -2023/03/28 16:48:31,053 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.Date as reading converter
+ -2023/03/28 16:48:31,053 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.UUID to class [B as writing converter
+ -2023/03/28 16:48:31,053 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.util.UUID as reading converter
+ -2023/03/28 16:48:31,053 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,054 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,054 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class [B as writing converter
+ -2023/03/28 16:48:31,054 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,055 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class [B as writing converter
+ -2023/03/28 16:48:31,055 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,055 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZonedDateTime to class [B as writing converter
+ -2023/03/28 16:48:31,055 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZonedDateTime as reading converter
+ -2023/03/28 16:48:31,056 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class [B as writing converter
+ -2023/03/28 16:48:31,056 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,056 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class [B as writing converter
+ -2023/03/28 16:48:31,057 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,057 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class [B as writing converter
+ -2023/03/28 16:48:31,057 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,058 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class [B as writing converter
+ -2023/03/28 16:48:31,058 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class [B to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,058 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,058 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,059 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,059 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDate to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,059 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.LocalTime as reading converter
+ -2023/03/28 16:48:31,059 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalTime to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,060 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.util.Date to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,060 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.util.Date as writing converter
+ -2023/03/28 16:48:31,060 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,061 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,061 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.ZoneId to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,061 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.ZoneId as reading converter
+ -2023/03/28 16:48:31,061 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Duration to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,062 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Duration as reading converter
+ -2023/03/28 16:48:31,062 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.time.Period to class java.lang.String as writing converter
+ -2023/03/28 16:48:31,063 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Period as reading converter
+ -2023/03/28 16:48:31,063 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDate as reading converter
+ -2023/03/28 16:48:31,063 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter
+ -2023/03/28 16:48:31,064 [DEBUG]  [org.springframework.data.convert.CustomConversions] [main]- Adding converter from class java.lang.String to class java.time.Instant as reading converter
+ -2023/03/28 16:48:31,066 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'streamingQueryBuilder'
+ -2023/03/28 16:48:31,067 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'streamingQueryBuilder' via factory method to bean named 'redisModulesOperations'
+ -2023/03/28 16:48:31,067 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'streamingQueryBuilder' via factory method to bean named 'gson'
+ -2023/03/28 16:48:31,070 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+ -2023/03/28 16:48:31,071 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+ -2023/03/28 16:48:31,072 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+ -2023/03/28 16:48:31,073 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+ -2023/03/28 16:48:31,074 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'applicationAvailability'
+ -2023/03/28 16:48:31,077 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+ -2023/03/28 16:48:31,079 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+ -2023/03/28 16:48:31,080 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'lifecycleProcessor'
+ -2023/03/28 16:48:31,081 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+ -2023/03/28 16:48:31,083 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+ -2023/03/28 16:48:31,085 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+ -2023/03/28 16:48:31,086 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration'
+ -2023/03/28 16:48:31,088 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+ -2023/03/28 16:48:31,091 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+ -2023/03/28 16:48:31,094 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+ -2023/03/28 16:48:31,095 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration'
+ -2023/03/28 16:48:31,096 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+ -2023/03/28 16:48:31,098 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration' via constructor to bean named 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+ -2023/03/28 16:48:31,099 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+ -2023/03/28 16:48:31,101 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+ -2023/03/28 16:48:31,104 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+ -2023/03/28 16:48:31,105 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'taskExecutorBuilder'
+ -2023/03/28 16:48:31,107 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+ -2023/03/28 16:48:31,109 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+ -2023/03/28 16:48:31,112 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+ -2023/03/28 16:48:31,114 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'taskSchedulerBuilder'
+ -2023/03/28 16:48:31,115 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+ -2023/03/28 16:48:31,117 [DEBUG]  [org.springframework.beans.factory.support.ConstructorResolver] [main]- Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+ -2023/03/28 16:48:31,119 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+ -2023/03/28 16:48:31,120 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+ -2023/03/28 16:48:31,121 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+ -2023/03/28 16:48:31,125 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+ -2023/03/28 16:48:31,126 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorConfiguration$ReactorNetty'
+ -2023/03/28 16:48:31,127 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorAutoConfiguration'
+ -2023/03/28 16:48:31,128 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration$WebClientCodecsConfiguration'
+ -2023/03/28 16:48:31,129 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'exchangeStrategiesCustomizer'
+ -2023/03/28 16:48:31,131 [DEBUG]  [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry] [main]- Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration'
+ -2023/03/28 16:48:31,145 [DEBUG]  [org.springframework.context.event.EventListenerMethodProcessor] [main]- 2 @EventListener methods processed on bean 'com.redis.om.spring.RedisModulesConfiguration': {public void com.redis.om.spring.RedisModulesConfiguration.processBloom(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={org.springframework.context.event.ContextRefreshedEvent.class}, condition="", id="", value={org.springframework.context.event.ContextRefreshedEvent.class}), public void com.redis.om.spring.RedisModulesConfiguration.ensureIndexesAreCreated(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(classes={org.springframework.context.event.ContextRefreshedEvent.class}, condition="", id="", value={org.springframework.context.event.ContextRefreshedEvent.class})}
+ -2023/03/28 16:48:31,211 [DEBUG]  [org.springframework.jmx.export.MBeanExporter] [main]- Registering beans for JMX exposure on startup
+ -2023/03/28 16:48:31,212 [DEBUG]  [org.springframework.jmx.export.MBeanExporter] [main]- Autodetecting user-defined JMX MBeans
+ -2023/03/28 16:48:31,225 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [main]- Starting beans in phase -2147483647
+ -2023/03/28 16:48:31,226 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor] [main]- Successfully started bean 'springBootLoggingLifecycle'
+ -2023/03/28 16:48:31,227 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [main]- Starting beans in phase 2147481599
+ -2023/03/28 16:48:31,455 [INFO ]  [org.springframework.boot.web.embedded.netty.NettyWebServer] [main]- Netty started on port 8080
+ -2023/03/28 16:48:31,457 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor] [main]- Successfully started bean 'webServerStartStop'
+ -2023/03/28 16:48:31,458 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup] [main]- Starting beans in phase 2147482623
+ -2023/03/28 16:48:31,459 [DEBUG]  [org.springframework.context.support.DefaultLifecycleProcessor] [main]- Successfully started bean 'webServerGracefulShutdown'
+ -2023/03/28 16:48:31,469 [DEBUG]  [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [main]- 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration matched:
+      - @ConditionalOnClass found required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ClientHttpConnectorAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   ClientHttpConnectorAutoConfiguration#clientConnectorCustomizer matched:
+      - @ConditionalOnBean (types: org.springframework.http.client.reactive.ClientHttpConnector; SearchStrategy: all) found bean 'reactorClientHttpConnector' (OnBeanCondition)
+
+   ClientHttpConnectorConfiguration.ReactorNetty matched:
+      - @ConditionalOnClass found required class 'reactor.netty.http.client.HttpClient' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.http.client.reactive.ClientHttpConnector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   CodecsAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.http.codec.CodecConfigurer', 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CodecsAutoConfiguration.JacksonCodecConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   CodecsAutoConfiguration.JacksonCodecConfiguration#jacksonCodecCustomizer matched:
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'ObjectMapper' (OnBeanCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+
+   ErrorWebFluxAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   ErrorWebFluxAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.reactive.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorWebFluxAutoConfiguration#errorWebExceptionHandler matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   GsonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonAutoConfiguration#gson matched:
+      - @ConditionalOnMissingBean (types: com.google.gson.Gson; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpHandlerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.web.reactive.DispatcherHandler', 'org.springframework.http.server.reactive.HttpHandler' (OnClassCondition)
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.http.server.reactive.HttpHandler; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JedisConnectionConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'org.springframework.data.redis.connection.jedis.JedisConnection', 'redis.clients.jedis.Jedis' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.redis.client-type=jedis) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   JmxAutoConfiguration#mbeanExporter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#mbeanServer matched:
+      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#objectNamingStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   NettyAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.netty.util.NettyRuntime' (OnClassCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ReactiveMultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.http.codec.multipart.DefaultPartHttpMessageReader', 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.ReactiveHttpInputMessage' (OnClassCondition)
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   ReactiveWebServerFactoryConfiguration.EmbeddedNetty matched:
+      - @ConditionalOnClass found required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.reactive.server.ReactiveWebServerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ReactorNettyConfigurations.ReactorResourceFactoryConfiguration#reactorResourceFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.client.reactive.ReactorResourceFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RedisAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
+
+   RedisAutoConfiguration#stringRedisTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found a single bean 'redisConnectionFactory'; @ConditionalOnMissingBean (types: org.springframework.data.redis.core.StringRedisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RedisCacheConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+      - Cache org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration automatic cache type (CacheCondition)
+
+   RedisModulesConfiguration#redisModulesOperations matched:
+      - @ConditionalOnMissingBean (types: com.redis.om.spring.ops.RedisModulesOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RedisReactiveAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.redis.connection.ReactiveRedisConnectionFactory', 'org.springframework.data.redis.core.ReactiveRedisTemplate', 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.application.admin.enabled=true) matched (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SqlInitializationAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#taskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionAutoConfiguration#platformTransactionManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebClientAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   WebClientAutoConfiguration#webClientBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.reactive.function.client.WebClient$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebClientAutoConfiguration.WebClientCodecsConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.boot.web.codec.CodecCustomizer; SearchStrategy: all) found beans 'jacksonCodecCustomizer', 'defaultCodecCustomizer', 'defaultPartHttpMessageReaderCustomizer' (OnBeanCondition)
+
+   WebClientAutoConfiguration.WebClientCodecsConfiguration#exchangeStrategiesCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientCodecCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSessionIdResolverAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.web.server.session.WebSessionManager', 'reactor.core.publisher.Mono' (OnClassCondition)
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   WebSessionIdResolverAutoConfiguration#webSessionIdResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.server.session.WebSessionIdResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnMissingClass found unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.jms.ConnectionFactory' (OnClassCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   Cache2kCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.cache2k.Cache2kBuilder' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.cassandra.ReactiveSession' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   ClientHttpConnectorConfiguration.HttpClient5:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.hc.client5.http.impl.async.HttpAsyncClients', 'org.apache.hc.core5.http.nio.AsyncRequestProducer' (OnClassCondition)
+
+   ClientHttpConnectorConfiguration.JdkClient:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.http.client.reactive.ClientHttpConnector; SearchStrategy: all) found beans of type 'org.springframework.http.client.reactive.ClientHttpConnector' reactorClientHttpConnector (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'java.net.http.HttpClient' (OnClassCondition)
+
+   ClientHttpConnectorConfiguration.JettyClient:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.reactive.client.ReactiveRequest' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   CouchbaseReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   DataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+
+   ElasticsearchClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'co.elastic.clients.elasticsearch.ElasticsearchClient' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ElasticsearchTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.repository.ElasticsearchRepository' (OnClassCondition)
+
+   ElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestClientBuilder' (OnClassCondition)
+
+   EmbeddedLdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   ErrorMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.Servlet' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GraphQlAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlQueryByExampleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlQuerydslAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlRSocketAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlReactiveQueryByExampleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlReactiveQuerydslAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebFluxSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebMvcSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration#gsonBuilder:
+      Did not match:
+         - @ConditionalOnMissingBean (types: com.google.gson.GsonBuilder; SearchStrategy: all) found beans of type 'com.google.gson.GsonBuilder' gsonBuilder (OnBeanCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.JakartaWebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.persistence.EntityManager' (OnClassCondition)
+
+   HttpEncodingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration:
+      Did not match:
+         - NoneNestedConditions 1 matched 0 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication found ConfigurableReactiveWebEnvironment (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   InfluxDbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper:
+      Did not match:
+         - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found beans of type 'com.fasterxml.jackson.databind.ObjectMapper' ObjectMapper (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+
+   JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.jms.Message' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   JtaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.transaction.Transaction' (OnClassCondition)
+
+   KafkaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
+
+   LdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
+
+   LdapRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
+
+   LettuceConnectionConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.activation.MimeType' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.mail.test-connection) did not find property 'test-connection' (OnPropertyCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MultipartAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   OAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   OAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.authentication.BearerTokenAuthenticationToken' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   QuartzAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
+
+   R2dbcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   R2dbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
+
+   RSocketGraphQlClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   RSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketRequesterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
+
+   RSocketServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
+
+   RSocketStrategiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactiveElasticsearchClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'co.elastic.clients.transport.ElasticsearchTransport' (OnClassCondition)
+
+   ReactiveElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ReactiveElasticsearchClient' (OnClassCondition)
+
+   ReactiveOAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveOAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration#forwardedHeaderTransformer:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration#tomcatReactiveWebServerFactoryCustomizer:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+
+   ReactiveWebServerFactoryConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.servlet.ServletHolder' (OnClassCondition)
+
+   ReactiveWebServerFactoryConfiguration.EmbeddedTomcat:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+
+   ReactiveWebServerFactoryConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.Undertow' (OnClassCondition)
+
+   RedisAutoConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found beans named redisTemplate (OnBeanCondition)
+
+   RedisReactiveAutoConfiguration#reactiveRedisTemplate:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.data.redis.connection.ReactiveRedisConnectionFactory; SearchStrategy: all) did not find any beans of type org.springframework.data.redis.connection.ReactiveRedisConnectionFactory (OnBeanCondition)
+
+   RedisReactiveAutoConfiguration#reactiveStringRedisTemplate:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.data.redis.connection.ReactiveRedisConnectionFactory; SearchStrategy: all) did not find any beans of type org.springframework.data.redis.connection.ReactiveRedisConnectionFactory (OnBeanCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   RestTemplateAutoConfiguration:
+      Did not match:
+         - NoneNestedConditions 1 matched 0 did not; NestedCondition on RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication found ConfigurableReactiveWebEnvironment (RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+
+   Saml2RelyingPartyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServletWebServerFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.ServletRequest' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring6.SpringTemplateEngine' (OnClassCondition)
+
+   TransactionAutoConfiguration#transactionalOperator:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans of type org.springframework.transaction.TransactionManager (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   ValidationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.validation.executable.ExecutableValidator' (OnClassCondition)
+
+   WebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.reactive.config.WebFluxConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.reactive.config.WebFluxConfigurationSupport' org.springframework.web.reactive.config.DelegatingWebFluxConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+         - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   WebFluxAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.webflux.problemdetails.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+         - Ancestor org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   WebFluxAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+         - Ancestor org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.Servlet' (OnClassCondition)
+
+   WebServiceTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.client.core.WebServiceTemplate' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   WebSocketReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.Servlet' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.servlet.Servlet' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.transaction.TransactionManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    com.redis.om.spring.RedisModulesConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+ -2023/03/28 16:48:31,557 [DEBUG]  [org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider] [main]- Identified candidate component class: file [C:\Users\dlsrb\Desktop\공부\minesweeper\bin\main\com\spsi\minesweeper\domain\Game.class]
+ -2023/03/28 16:48:31,564 [INFO ]  [com.redis.om.spring.RedisModulesConfiguration] [main]- Creating Indexes......
+ -2023/03/28 16:48:31,571 [DEBUG]  [org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider] [main]- Identified candidate component class: file [C:\Users\dlsrb\Desktop\공부\minesweeper\bin\main\com\spsi\minesweeper\domain\Game.class]
+ -2023/03/28 16:48:31,609 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Found 1 @Document annotated Beans...
+ -2023/03/28 16:48:31,610 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Found @JSON annotated class: com.spsi.minesweeper.domain.Game
+ -2023/03/28 16:48:31,611 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Found @Indexed annotation on field of type: class java.lang.String
+ -2023/03/28 16:48:31,614 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Found @Indexed annotation on field of type: class java.lang.String
+ -2023/03/28 16:48:31,615 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Using entity prefix 'com.spsi.minesweeper.domain.Game:' as keyspace for type : class com.spsi.minesweeper.domain.Game
+ -2023/03/28 16:48:31,685 [WARN ]  [com.redis.om.spring.RediSearchIndexer] [main]- Skipping index creation for com.spsi.minesweeper.domain.GameIdx because ERR unknown command 'FT.CREATE'
+ -2023/03/28 16:48:31,697 [INFO ]  [com.redis.om.spring.RediSearchIndexer] [main]- Found 0 @RedisHash annotated Beans...
+ -2023/03/28 16:48:31,744 [INFO ]  [org.springframework.boot.StartupInfoLogger] [main]- Started HigmineApplication in 4.021 seconds (process running for 5.037)
+ -2023/03/28 16:48:31,753 [DEBUG]  [org.springframework.boot.availability.ApplicationAvailabilityBean] [main]- Application availability state LivenessState changed to CORRECT
+ -2023/03/28 16:48:31,756 [DEBUG]  [org.springframework.boot.availability.ApplicationAvailabilityBean] [main]- Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+ -2023/03/28 16:48:36,364 [DEBUG]  [org.springframework.core.log.LogFormatUtils] [reactor-http-nio-2]- [7a9983bc-1] HTTP GET "/minesweeper"
+ -2023/03/28 16:48:36,387 [DEBUG]  [org.springframework.web.reactive.handler.AbstractHandlerMapping] [reactor-http-nio-2]- [7a9983bc-1] Mapped to com.spsi.minesweeper.controller.GameWebSocketHandler@7b918198
+ -2023/03/28 16:48:36,419 [DEBUG]  [org.springframework.web.reactive.socket.adapter.AbstractWebSocketSession] [reactor-http-nio-2]- [7a9983bc-1] Session id "3bdf173d" for http://localhost:8080/minesweeper
+ -2023/03/28 16:48:36,441 [DEBUG]  [org.springframework.core.log.LogFormatUtils] [reactor-http-nio-2]- [7a9983bc-1] Completed 200 OK
+ -2023/03/28 16:48:47,761 [ERROR]  [com.spsi.minesweeper.controller.GameWebSocketHandler] [reactor-http-nio-2]- org.springframework.dao.InvalidDataAccessApiUsageException: ERR unknown command 'JSON.GET'
+ -2023/03/28 16:48:58,417 [DEBUG]  [org.springframework.core.log.LogFormatUtils] [reactor-http-nio-3]- [11de8d12-2] HTTP GET "/minesweeper"
+ -2023/03/28 16:48:58,418 [DEBUG]  [org.springframework.web.reactive.handler.AbstractHandlerMapping] [reactor-http-nio-3]- [11de8d12-2] Mapped to com.spsi.minesweeper.controller.GameWebSocketHandler@7b918198
+ -2023/03/28 16:48:58,419 [DEBUG]  [org.springframework.web.reactive.socket.adapter.AbstractWebSocketSession] [reactor-http-nio-3]- [11de8d12-2] Session id "f0ed4b8" for http://localhost:8080/minesweeper
+ -2023/03/28 16:48:58,419 [DEBUG]  [org.springframework.core.log.LogFormatUtils] [reactor-http-nio-3]- [11de8d12-2] Completed 200 OK
+ -
