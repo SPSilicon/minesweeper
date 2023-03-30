@@ -52,16 +52,23 @@ public class GameWebSocketHandler implements WebSocketHandler {
 
                     if(roomId!=null) {
                         game = gameService.findGameById(clientMessage.getId())
-                                        .orElse(gameService.createGame(userId,roomId,30,50,20));
-                        if(game.getGameStatus()!=GameStatus.ENDED){
-                            gameService.updateGame(game,clientMessage.getHost(),clientMessage.getActions());
+                                        .orElse(null);
+                        if(game ==null) {
+                            game = gameService.createGame(userId,roomId,20,30,100);
+                        }
+
+                        if(game.getGameStatus()==GameStatus.ENDED){
+                            game = gameService.restartGame(game,clientMessage.getHost());
+                        } else {
+                            game = gameService.updateGame(game, userId, clientMessage.getActions());
                         }
                     } else {
-                        game = gameService.createGame(clientMessage.getHost(), roomId,30,50,20);
+                        game = gameService.createGame(clientMessage.getHost(), roomId,20,30,100);
                     }
 
                     sessionUserID.set(userId);
                     sessionGameID.set(game.getId());
+                    //game = gameService.findGameById(clientMessage.getId()).orElse(null);
                     logger.log(Level.INFO, clientMessage.getHost()+"send from gameID"+clientMessage.getId()+"received : ");
                 } catch (Exception e) {
                     logger.log(Level.ERROR,e.toString());
@@ -81,7 +88,7 @@ public class GameWebSocketHandler implements WebSocketHandler {
                     if(message.equals("init")) return "init";
                     Game game = gameService.findGameById(message).orElse(null);
                     if(game == null) {
-                        return "redis sync error";
+                        return "performance error";
                     }
                     int[] board = game.getBoard();
                     boolean[] revealed = game.getRevealed();
