@@ -4,6 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+logs/
 
 ### STS ###
 .apt_generated
@@ -35,3 +36,14 @@ out/
 
 ### VS Code ###
 .vscode/
+logs/Spring Log4j2 Test_2023-03-28_1.log.gz
+logs/Spring Log4j2 Test_2023-03-28_2.log.gz
+logs/Spring Log4j2 Test_2023-03-28_3.log.gz
+logs/Spring Log4j2 Test_2023-03-28_4.log.gz
+logs/Spring Log4j2 Test_2023-03-28_5.log.gz
+logs/Spring Log4j2 Test_2023-03-28_6.log.gz
+logs/Spring Log4j2 Test_2023-03-28_7.log.gz
+logs/Spring Log4j2 Test_2023-03-28_8.log.gz
+logs/Spring Log4j2 Test_2023-03-28_9.log.gz
+logs/Spring Log4j2 Test_2023-03-28_10.log.gz
+logs/Spring Log4j2 Test.log
