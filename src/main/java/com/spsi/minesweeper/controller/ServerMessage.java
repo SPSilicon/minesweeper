@@ -2,6 +2,7 @@ package com.spsi.minesweeper.controller;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.springframework.boot.jackson.JsonComponent;
 
 import java.util.Set;
 
@@ -23,7 +24,10 @@ public class ServerMessage {
         this.board = board;
         this.message = message;
     }
+    
+    public ServerMessage() {
 
+    }
 
     public int getY() {
         return y;
