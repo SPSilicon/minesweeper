@@ -1,5 +1,6 @@
 package com.spsi.minesweeper.service;
 
+import com.spsi.minesweeper.domain.Action;
 import com.spsi.minesweeper.domain.Game;
 import com.spsi.minesweeper.domain.GameRepository;
 import com.spsi.minesweeper.domain.GameStatus;
@@ -17,7 +18,43 @@ public class GameService {
         this.gameRepository = gameRepository;
     }
 
-    public Game createGame(String host,String RoomID,int width,int height, int mine) {
+    public Game restartGame(Game game, String host) {
+        int[] board = game.getBoard();
+        int width = game.getWidth();
+        int height = game.getHeight();
+        int mineCount = game.getMines().size();
+        boolean[] revealed = game.getRevealed();
+        boolean[] flag = game.getFlag();
+        Set<String> attenders = game.getAttenders();
+        List<Integer> mines = new ArrayList<>();
+        LocalDateTime time = LocalDateTime.now();
+        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getDayOfMonth());
+
+        Arrays.fill(board,0);
+        Arrays.fill(revealed,false);
+        Arrays.fill(flag,false);
+        for(int i=0;i<mineCount;++i) {
+            int y = random.nextInt(height);
+            int x = random.nextInt(width);
+            int cur = y*width+x;
+            if(board[cur]==-1) continue;
+            for(int j=0;j<dir.length;++j) {
+                int dy = y+dir[j][0];
+                int dx = x+dir[j][1];
+                if(dy<0||dy>=height) continue;
+                if(dx<0||dx>=width) continue;
+                int idx = dy*width+dx;
+                if(board[idx]>=0) ++board[idx];
+            }
+            board[cur] = -1;
+            mines.add(cur);
+        }
+
+        attenders.add(host);
+
+        return gameRepository.save(game);
+    }
+    public Game createGame(String host,String roomID,int width,int height, int mine) {
         int[] board = new int[width*height];
         boolean[] revealed = new boolean[width*height];
         boolean[] flag = new boolean[width*height];
@@ -30,7 +67,10 @@ public class GameService {
             int y = random.nextInt(height);
             int x = random.nextInt(width);
             int cur = y*width+x;
-            if(board[cur]==-1) continue;
+            if(board[cur]==-1) {
+                --i;
+                continue;
+            }
             for(int j=0;j<dir.length;++j) {
                 int dy = y+dir[j][0];
                 int dx = x+dir[j][1];
@@ -80,14 +120,14 @@ public class GameService {
         int width = game.getWidth();
         int height = game.getHeight();
         Set<String> attenders = Optional.ofNullable(game.getAttenders()).orElse(new HashSet<>());
-        GameStatus gameStatus = GameStatus.PLAYING;
+        game.setGameStatus(GameStatus.PLAYING);
 
         if(actionList!=null) {
             for(Action act : actionList) {
                 switch(act.getActionType()) {
                     case DIG:
                         if(board[act.getLoc()]==-1) {
-                            gameStatus = GameStatus.ENDED;
+                            game.setGameStatus(GameStatus.ENDED);
                             break;
                         }
                         if(flag[act.getLoc()]) break;
@@ -111,7 +151,7 @@ public class GameService {
             
             int y = cur/width;
             int x = cur-y*width;
-            for(int i=0;i<4;++i) {
+            for(int i=0;i<8;++i) {
                 int dy = y+dir[i][0];
                 int dx = x+dir[i][1];
                 int idx = dy*width+dx;
@@ -131,10 +171,10 @@ public class GameService {
         }
 
         if(count==revealed.length-game.getMines().size()) {
-            gameStatus =GameStatus.WIN;
+            game.setGameStatus(GameStatus.WIN);
         }
 
         attenders.add(userID);
-        return gameRepository.save(Game.of(board,width,height,revealed,flag,attenders,game.getMines(),gameStatus));
+        return gameRepository.save(game);
     }
 }
