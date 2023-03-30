@@ -1,4 +1,4 @@
-package com.spsi.minesweeper.service;
+package com.spsi.minesweeper.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
