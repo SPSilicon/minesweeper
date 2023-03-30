@@ -7,7 +7,7 @@ const gameBoard = document.getElementById("board");
 const flagRadio = document.getElementById("flagRadio");
 const attendersList = document.getElementById("attenders-content");
 const closeButton = document.getElementById("closeButton");
-
+const webSocketURL = "ws://192.168.35.177:8080/minesweeper"
 var row;
 var column;
 var gameConn;
@@ -37,10 +37,10 @@ closeButton.onclick = ()=>{
 joinButton.onclick = ()=>{
     gameBoard.replaceChildren();
     if(gameConn==null||gameConn.readyState ==3)
-        gameConn = new WebSocket("ws://localhost:8080/minesweeper");
+        gameConn = new WebSocket(webSocketURL);
     else {
         gameConn.close();
-        gameConn = new WebSocket("ws://localhost:8080/minesweeper");
+        gameConn = new WebSocket(webSocketURL);
     }
 
     gameConn.onopen = ()=>{
@@ -60,13 +60,22 @@ joinButton.onclick = ()=>{
         //var statusLabel = document.getElementById("status");
         //var gameID =document.getElementById("gameid");
         if(ev.data=="init") {
-            console.log("init!");
+            //console.log("init!");
             return;
         }
         var recv = JSON.parse(ev.data);
 
         setAttenders(recv.attenders);
-        statusLabel.innerText = "mines : "+recv.message;
+        var flags = 0;
+        for( let i=0; i<recv.board.length;++i) {
+            if(recv.board[i]=="10") {
+                ++flags;
+            }
+        }
+        if(!isNaN(Number(recv.message))) {
+            statusLabel.innerText = "mines : "+(Number(recv.message)-flags);
+        }
+        //statusLabel.innerText = "mines : "+recv.message;
         if(curID.value == recv.id && gameBoard.hasChildNodes()) {
             drawGame(recv.y,recv.x,recv.board);
         } else {
@@ -79,7 +88,7 @@ joinButton.onclick = ()=>{
         if(recv.message=="GAME OVER" || recv.message=="WIN"){
             gameConn.close();
         }
-        console.log(JSON.parse(ev.data));
+        //console.log(JSON.parse(ev.data));
     };
 };
 
@@ -95,7 +104,8 @@ function setAttenders(attenders) {
 
 function initGame(rows,columns,brd) {
     gameBoard.replaceChildren();
-
+    gameBoard.style.width = (columns*18)+"px";
+    gameBoard.style.height = (rows*(18+4))+"px";
     row=rows;
     column = columns;
     for (let r = 0; r < rows; r++) {
