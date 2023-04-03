@@ -1,6 +1,7 @@
 package com.spsi.minesweeper.controller;
 
-import com.spsi.minesweeper.service.Action;
+import com.spsi.minesweeper.domain.Action;
+
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
