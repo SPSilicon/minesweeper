@@ -5,6 +5,7 @@ import com.spsi.minesweeper.domain.Game;
 import com.spsi.minesweeper.domain.GameRepository;
 import com.spsi.minesweeper.domain.GameStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.*;
@@ -18,7 +19,9 @@ public class GameService {
         this.gameRepository = gameRepository;
     }
 
-    public Game restartGame(Game game, String host) {
+    
+    public String restartGame(String roomId, String host) {
+        Game game = gameRepository.findById(roomId).orElseThrow(()->new RuntimeException("game not found"));
         int[] board = game.getBoard();
         int width = game.getWidth();
         int height = game.getHeight();
@@ -51,68 +54,14 @@ public class GameService {
         }
 
         attenders.add(host);
+        game.setGameStatus(GameStatus.PLAYING);
+        game = gameRepository.save(game);
 
-        return gameRepository.save(game);
-    }
-    public Game createGame(String host,String roomID,int width,int height, int mine) {
-        int[] board = new int[width*height];
-        boolean[] revealed = new boolean[width*height];
-        boolean[] flag = new boolean[width*height];
-        Set<String> attenders = new HashSet<>();
-        List<Integer> mines = new ArrayList<>();
-        LocalDateTime time = LocalDateTime.now();
-        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getDayOfMonth());
-
-        for(int i=0;i<mine;++i) {
-            int y = random.nextInt(height);
-            int x = random.nextInt(width);
-            int cur = y*width+x;
-            if(board[cur]==-1) {
-                --i;
-                continue;
-            }
-            for(int j=0;j<dir.length;++j) {
-                int dy = y+dir[j][0];
-                int dx = x+dir[j][1];
-                if(dy<0||dy>=height) continue;
-                if(dx<0||dx>=width) continue;
-                int idx = dy*width+dx;
-                if(board[idx]>=0) ++board[idx];
-            }
-            board[cur] = -1;
-            mines.add(cur);
-        }
-
-        attenders.add(host);
-
-        Game game = Game.of(board,width,height,revealed,flag,attenders,mines,GameStatus.READY);
-
-        return gameRepository.save(game);
+        return game.getId();
     }
 
-    public void leave(String roomID, String userID) {
-        Game game = gameRepository.findById(roomID).orElse(null);
-        game.getAttenders().remove(userID);
-        if(game.getAttenders().isEmpty()) {
-            deleteGame(game);
-        } else {
-            gameRepository.save(game);
-        }
-    }
-
-    public void deleteGame(Game game) {
-        gameRepository.delete(game);
-    }
-
-    public Optional<Game> findGameById(String gameID) {
-        return gameRepository.findById(gameID);
-    }
-
-    public boolean existsGameById(String gameID) {
-        return gameRepository.existsById(gameID);
-    }
-
-    public Game updateGame(Game game,String userID, List<Action> actionList) {
+    public String updateGame(String roomId,String userId, List<Action> actionList) {
+        Game game = gameRepository.findById(roomId).orElseThrow(()->new RuntimeException("game not found"));
         Queue<Integer> que = new LinkedList<>();
         int[] board = game.getBoard();
         boolean[] revealed = game.getRevealed();
@@ -174,7 +123,111 @@ public class GameService {
             game.setGameStatus(GameStatus.WIN);
         }
 
-        attenders.add(userID);
-        return gameRepository.save(game);
+        attenders.add(userId);
+        game = gameRepository.save(game);
+
+        return game.getId();
     }
+
+    public String createGame(String host,int width,int height, int mine) {
+        int[] board = new int[width*height];
+        boolean[] revealed = new boolean[width*height];
+        boolean[] flag = new boolean[width*height];
+        Set<String> attenders = new HashSet<>();
+        List<Integer> mines = new ArrayList<>();
+        LocalDateTime time = LocalDateTime.now();
+        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getDayOfMonth());
+
+        for(int i=0;i<mine;++i) {
+            int y = random.nextInt(height);
+            int x = random.nextInt(width);
+            int cur = y*width+x;
+            if(board[cur]==-1) {
+                --i;
+                continue;
+            }
+            for(int j=0;j<dir.length;++j) {
+                int dy = y+dir[j][0];
+                int dx = x+dir[j][1];
+                if(dy<0||dy>=height) continue;
+                if(dx<0||dx>=width) continue;
+                int idx = dy*width+dx;
+                if(board[idx]>=0) ++board[idx];
+            }
+            board[cur] = -1;
+            mines.add(cur);
+        }
+
+        attenders.add(host);
+
+        Game game = Game.of(board,width,height,revealed,flag,attenders,mines,GameStatus.READY);
+
+        game = gameRepository.save(game);
+
+        return game.getId();
+    }
+
+    public ServerMessage getServerMessage(String roomId) {
+        Optional<Game> oGame = gameRepository.findById(roomId);
+        if(oGame.isPresent()) {
+            Game game = oGame.get();
+            int[] board = game.getBoard();
+            boolean[] revealed = game.getRevealed();
+            boolean[] flag = game.getFlag();
+            String GameMessage= "";
+            for(int i=0;i<board.length;++i) {
+                if(!revealed[i]) {
+                    if(flag[i])
+                        board[i]=10;
+                    else
+                        board[i]=9;
+                }
+            }
+    
+            if(game.getGameStatus() == GameStatus.PLAYING) {
+                GameMessage = Integer.toString(game.getMines().size());
+            } else if(game.getGameStatus() == GameStatus.ENDED) {
+                for(int i : game.getMines()){
+                    board[i] = -1;
+                }
+                GameMessage = "GAME OVER";
+            } else if(game.getGameStatus()== GameStatus.WIN) {
+                GameMessage = "WIN";
+            }
+            return new ServerMessage(game.getId(),game.getHost(),game.getHeight(),game.getWidth(), game.getAttenders(),board,GameMessage);
+        }
+        return new ServerMessage("","",1,1,new HashSet<>(),new int[1],"error");
+    }
+    
+    public void leave(String roomID, String userID) {
+        Game game = gameRepository.findById(roomID).orElse(null);
+        game.getAttenders().remove(userID);
+        if(game.getAttenders().isEmpty()) {
+            deleteGame(game);
+        } else {
+            gameRepository.save(game);
+        }
+    }
+   
+    public void deleteGame(Game game) {
+        gameRepository.delete(game);
+    }
+    
+    public String findGameById(String roomId) {
+        Game game = gameRepository.findById(roomId).orElse(null);
+        if(game==null) return "";
+        return game.getId();
+    }
+    
+    public boolean existsGameById(String roomId) {
+        return gameRepository.existsById(roomId);
+    }
+
+
+    public boolean isEnded(String roomId) {
+        Game game = gameRepository.findById(roomId).orElse(null);
+        if(game==null) return true;
+        else return game.getGameStatus()==GameStatus.ENDED;
+    }
+    
 }
