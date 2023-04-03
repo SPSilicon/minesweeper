@@ -1,8 +1,8 @@
-package com.spsi.minesweeper.controller;
+package com.spsi.minesweeper.service;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import org.springframework.boot.jackson.JsonComponent;
+
 
 import java.util.Set;
 
