@@ -1,9 +1,10 @@
 package com.spsi.minesweeper.infra.redis;
 
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
-import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 
 import com.redis.om.spring.annotations.EnableRedisDocumentRepositories;
 
@@ -11,9 +12,9 @@ import com.redis.om.spring.annotations.EnableRedisDocumentRepositories;
 @EnableRedisDocumentRepositories(basePackages = "com.spsi.minesweeper.*")
 public class RedisConfig {
 
-    //@Bean
-    LettuceConnectionFactory lettuceConnectionFactory() {
-        return new LettuceConnectionFactory(new RedisStandaloneConfiguration("localhost", 6379));
+    @Bean
+    JedisConnectionFactory redisConnectionFactory() {
+        return new JedisConnectionFactory(new RedisStandaloneConfiguration("localhost", 6379));
     }
 
 }
