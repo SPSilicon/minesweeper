@@ -11,7 +11,8 @@ import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;
 
 import com.spsi.minesweeper.service.GameService;
-import com.spsi.minesweeper.service.ServerMessage;
+import com.spsi.minesweeper.service.message.ClientMessage;
+import com.spsi.minesweeper.service.message.ServerMessage;
 
 import reactor.core.publisher.Flux;
 

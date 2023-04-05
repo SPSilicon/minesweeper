@@ -1,4 +1,4 @@
-package com.spsi.minesweeper.controller;
+package com.spsi.minesweeper.service.message;
 
 import com.spsi.minesweeper.domain.Action;
 

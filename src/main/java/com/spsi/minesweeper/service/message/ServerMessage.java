@@ -1,4 +1,4 @@
-package com.spsi.minesweeper.service;
+package com.spsi.minesweeper.service.message;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

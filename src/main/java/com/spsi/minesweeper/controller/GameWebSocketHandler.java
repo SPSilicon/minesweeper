@@ -10,7 +10,8 @@ import org.springframework.web.reactive.socket.WebSocketHandler;
 import org.springframework.web.reactive.socket.WebSocketSession;
 
 import com.spsi.minesweeper.service.GameService;
-import com.spsi.minesweeper.service.ServerMessage;
+import com.spsi.minesweeper.service.message.ClientMessage;
+import com.spsi.minesweeper.service.message.ServerMessage;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

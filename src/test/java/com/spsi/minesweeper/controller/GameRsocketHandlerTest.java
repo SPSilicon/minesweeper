@@ -15,7 +15,8 @@ import org.springframework.messaging.rsocket.RSocketRequester;
 
 import com.spsi.minesweeper.domain.Action;
 import com.spsi.minesweeper.domain.Action.ActionType;
-import com.spsi.minesweeper.service.ServerMessage;
+import com.spsi.minesweeper.service.message.ClientMessage;
+import com.spsi.minesweeper.service.message.ServerMessage;
 
 import reactor.core.publisher.Flux;
 
