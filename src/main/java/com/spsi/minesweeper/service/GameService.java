@@ -4,6 +4,8 @@ import com.spsi.minesweeper.domain.Action;
 import com.spsi.minesweeper.domain.Game;
 import com.spsi.minesweeper.domain.GameRepository;
 import com.spsi.minesweeper.domain.GameStatus;
+import com.spsi.minesweeper.service.message.ServerMessage;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -31,7 +33,8 @@ public class GameService {
         Set<String> attenders = game.getAttenders();
         List<Integer> mines = new ArrayList<>();
         LocalDateTime time = LocalDateTime.now();
-        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getDayOfMonth());
+        
+        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getNano());
 
         Arrays.fill(board,0);
         Arrays.fill(revealed,false);
@@ -136,7 +139,7 @@ public class GameService {
         Set<String> attenders = new HashSet<>();
         List<Integer> mines = new ArrayList<>();
         LocalDateTime time = LocalDateTime.now();
-        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getDayOfMonth());
+        Random random = new Random(time.getDayOfYear()+time.getDayOfMonth()+time.getNano());
 
         for(int i=0;i<mine;++i) {
             int y = random.nextInt(height);
