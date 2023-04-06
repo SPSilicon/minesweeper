@@ -1,0 +1,6 @@
+name: minesweeper
+packages:
+  - path: com.spsi.minesweeper
+    shallow: true
+language: java
+appmap_dir: build/appmap
