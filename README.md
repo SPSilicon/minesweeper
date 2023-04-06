@@ -1,1 +1,16 @@
-# minesweeper![mermaid-diagram-2023-04-07-003348](https://user-images.githubusercontent.com/44769598/230430389-e2caff67-2946-419a-b992-9937d940f329.png)
+```mermaid
+sequenceDiagram
+
+    loop while sessionClose or GameEnd
+        client--)server: clientMessage(id, host:<userID>, actions:null)
+        alt gameFound
+            server--)server: updateGame
+        else NotFound
+            server--)server:createGame
+        end
+        loop Every 150ms
+            server--)server:getGameStatus
+            server--)client: serverMessage(id, host, board, heigth, width, message)
+        end
+    end
+```
