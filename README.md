@@ -3,13 +3,15 @@
 Spring Webflux의 Websocket을 활용한 지뢰찾기 게임  
 
 
-## 필요사항
+## 환경
 
 ### redis stack  
 https://github.com/redis-stack/redis-stack
 #### docker
 https://www.docker.com/
-
+#### springboot 3.x  
+#### ubuntu 20.04
+#### redis-om-spring
 ## 흐름도
 
 ```mermaid
