@@ -11,7 +11,8 @@ https://github.com/redis-stack/redis-stack
 https://www.docker.com/
 #### springboot 3.x  
 #### ubuntu 20.04
-#### redis-om-spring
+#### redis-om-spring  
+https://github.com/redis/redis-om-spring
 ## 흐름도
 
 ```mermaid
